@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{9C216139-1547-48D4-B108-5363CCC6DF82}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RegistracijosPozymiai/Startup.cs">
+    <Files>
+      <File FileName="RegistracijosPozymiai/DTO/MongoDbSettings.cs" Line="1" Column="1" />
+      <File FileName="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" />
+      <File FileName="RegistracijosPozymiai/DTO/BsonCollectionAttribute.cs" />
+      <File FileName="RegistracijosPozymiai/Startup.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RegistracijosPozymiai" expanded="True">
+            <Node name="RegistracijosPozymiai" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DTO" expanded="True">
+                <Node name="Collections" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../RegistracijosPozymiai/DTO/RegFormService.cs" line="14" column="16" endLine="14" endColumn="67" offsetX="-1" offsetY="-1" expression="client.Cluster.Description" liveUpdate="False" />
+    <Watch file="../../../RegistracijosPozymiai/DTO/RegFormService.cs" line="14" column="16" endLine="14" endColumn="67" offsetX="-1" offsetY="-1" expression="client.Cluster.Description" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RegistracijosPozymiai PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/RegFormService.cs" relfile="RegistracijosPozymiai/DTO/RegFormService.cs" line="29" column="1" />
+      <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/RegFormService.cs" relfile="RegistracijosPozymiai/DTO/RegFormService.cs" line="22" column="1" />
+      <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" relfile="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" line="31" column="1" />
+      <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/Controllers/HomeController.cs" relfile="RegistracijosPozymiai/Controllers/HomeController.cs" line="27" column="1" />
+      <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" relfile="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" line="17" column="1" />
+      <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/BsonCollectionAttribute.cs" relfile="RegistracijosPozymiai/DTO/BsonCollectionAttribute.cs" line="10" column="1" />
+      <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" relfile="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" line="21" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
