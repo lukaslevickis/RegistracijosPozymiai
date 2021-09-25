@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{9C216139-1547-48D4-B108-5363CCC6DF82}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RegistracijosPozymiai/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs">
     <Files>
       <File FileName="RegistracijosPozymiai/DTO/MongoDbSettings.cs" Line="1" Column="1" />
-      <File FileName="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" />
-      <File FileName="RegistracijosPozymiai/DTO/BsonCollectionAttribute.cs" />
+      <File FileName="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" Line="25" Column="6" />
       <File FileName="RegistracijosPozymiai/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -14,13 +13,23 @@
               <Node name="Controllers" expanded="True" />
               <Node name="DTO" expanded="True">
                 <Node name="Collections" expanded="True" />
-                <Node name="Repositories" expanded="True" />
+                <Node name="Repositories" expanded="True">
+                  <Node name="MongoRepository.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>(BsonCollectionAttribute)documentType.GetCustomAttributes(typeof(BsonCollectionAttribute),true)</Value>
+          <Value>typeof(BsonCollectionAttribute)</Value>
+          <Value>documentType</Value>
+          <Value>((BsonCollectionAttribute)documentType.GetCustomAttributes(typeof(BsonCollectionAttribute),true).FirstOrDefault())?.CollectionName</Value>
+          <Value>typeof(TDocument).Name</Value>
         </State>
       </Pad>
     </Pads>
@@ -35,11 +44,10 @@
     <BreakpointStore>
       <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/RegFormService.cs" relfile="RegistracijosPozymiai/DTO/RegFormService.cs" line="29" column="1" />
       <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/RegFormService.cs" relfile="RegistracijosPozymiai/DTO/RegFormService.cs" line="22" column="1" />
-      <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" relfile="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" line="31" column="1" />
+      <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" relfile="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" line="23" column="1" />
       <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/Controllers/HomeController.cs" relfile="RegistracijosPozymiai/Controllers/HomeController.cs" line="27" column="1" />
       <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" relfile="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" line="17" column="1" />
       <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/BsonCollectionAttribute.cs" relfile="RegistracijosPozymiai/DTO/BsonCollectionAttribute.cs" line="10" column="1" />
-      <Breakpoint file="/Users/lukaslevickis/Desktop/full stack training/vsapps/Database/RegistracijosPozymiai/RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" relfile="RegistracijosPozymiai/DTO/Repositories/MongoRepository.cs" line="21" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

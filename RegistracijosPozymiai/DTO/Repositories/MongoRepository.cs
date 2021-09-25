@@ -14,15 +14,7 @@ namespace RegistracijosPozymiai.DTO
         public MongoRepository(IMongoDbSettings settings)
         {
             var database = new MongoClient(settings.ConnectionString).GetDatabase(settings.DatabaseName);
-            _collection = database.GetCollection<TDocument>(GetCollectionName(typeof(TDocument)));
-        }
-
-        private protected string GetCollectionName(Type documentType)
-        {
-            return ((BsonCollectionAttribute)documentType.GetCustomAttributes(
-                    typeof(BsonCollectionAttribute),
-                    true)
-                .FirstOrDefault())?.CollectionName;
+            _collection = database.GetCollection<TDocument>(typeof(TDocument).Name);
         }
 
         public List<TDocument> Get()
