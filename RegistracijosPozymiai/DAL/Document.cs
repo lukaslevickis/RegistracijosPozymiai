@@ -1,7 +1,7 @@
 ﻿using System;
 using MongoDB.Bson;
 
-namespace RegistracijosPozymiai.DTO
+namespace RegistracijosPozymiai.DAL
 {
     public abstract class Document : IDocument
     {

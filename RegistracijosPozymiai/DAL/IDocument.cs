@@ -2,7 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace RegistracijosPozymiai.DTO
+namespace RegistracijosPozymiai.DAL
 {
     public interface IDocument
     {

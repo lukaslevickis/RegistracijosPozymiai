@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using RegistracijosPozymiai.DTO.Repositories;
+using RegistracijosPozymiai.DAL.Repositories;
 
-namespace RegistracijosPozymiai.DTO
+namespace RegistracijosPozymiai.DAL
 {
     public class MongoRepository<TDocument> : IMongoRepository<TDocument> where TDocument : IDocument
     {

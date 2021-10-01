@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using RegistracijosPozymiai.DTO;
-using RegistracijosPozymiai.DTO.Collections;
-using RegistracijosPozymiai.DTO.Repositories;
+using RegistracijosPozymiai.DAL;
+using RegistracijosPozymiai.DAL.Collections;
+using RegistracijosPozymiai.DAL.Repositories;
 using RegistracijosPozymiai.Models;
 
 namespace RegistracijosPozymiai.Controllers

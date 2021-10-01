@@ -2,7 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace RegistracijosPozymiai.DTO.Collections
+namespace RegistracijosPozymiai.DAL.Collections
 {
     public class Option: Document
     {

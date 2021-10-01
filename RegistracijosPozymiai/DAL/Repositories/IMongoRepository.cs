@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace RegistracijosPozymiai.DTO.Repositories
+namespace RegistracijosPozymiai.DAL.Repositories
 {
     public interface IMongoRepository<TDocument> where TDocument : IDocument
     {

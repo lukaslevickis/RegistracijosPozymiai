@@ -11,15 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="DTO\" />
     <None Remove="DTO\Entities\" />
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="MongoDB.Driver" />
-    <None Remove="DTO\Repositories\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DTO\" />
-    <Folder Include="DTO\Collections\" />
-    <Folder Include="DTO\Repositories\" />
   </ItemGroup>
 </Project>

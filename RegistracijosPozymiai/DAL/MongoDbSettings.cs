@@ -1,5 +1,5 @@
 ﻿using System;
-namespace RegistracijosPozymiai.DTO
+namespace RegistracijosPozymiai.DAL
 {
     public class MongoDbSettings : IMongoDbSettings
     {

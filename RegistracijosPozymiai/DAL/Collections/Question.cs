@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using MongoDB.Bson;
 
-namespace RegistracijosPozymiai.DTO.Collections
+namespace RegistracijosPozymiai.DAL.Collections
 {
     public class Question
     {
